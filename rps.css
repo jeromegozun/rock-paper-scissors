@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&display=swap');
+
+body{
+  padding-left: 70px;
+  padding-right: 70px;
+  font-family: 'Frijole', cursive;
+ 
+}
+#container{
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  grid-row-gap: 40px;
+  padding-top: 70px;
+  padding-right: 60px;
+  justify-content: flex-start;
+  justify-items: center;
+  padding-left: 70px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-family: 'Frijole', cursive;
+}
+
+p{
+  text-align: center;
+}
+
+#rock-img{
+  width: 200px;
+  height: 200px; 
+  background-color: coral;
+}
+
+#rock-img:hover {
+  cursor: pointer;
+  border: black;
+}
+
+#paper-img{
+  width: 200px;
+  height: 200px;
+}
+
+#paper-img:hover{
+  cursor:pointer;
+}
+
+#scissors-img{
+  width: 200px;
+  height: 200px;
+}
+#scissors-img:hover{
+  cursor: pointer;
+}
+
+figcaption{
+  font-family: 'Frijole', cursive;
+  
+}
+
+#results{
+  font-family: 'Frijole', cursive;
+  text-align: center;
+  font-size: 20px;
+}
+
+#score{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-family: 'Frijole', cursive;
+  justify-items: center;
+}
+
+#play-again{
+  text-align: center;
+  font-size: 50px;
+}
+
+#play-again:hover{
+  cursor: pointer;
+  color: rgb(114, 107, 107);
+  font-size: 55px;
+}
